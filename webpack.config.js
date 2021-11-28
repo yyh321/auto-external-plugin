@@ -10,7 +10,7 @@ module.exports = {
     path:path.resolve(__dirname,'dist')
   },
   plugins:[
-    // new DonePlugin({name:'zf'}),
+    // new DonePlugin(),
     
     new AutoExternalPlugin1({
       lodash:{
